@@ -1,75 +1,12 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  background: url("../img/image5.jpg");
-  background-repeat: repeat;
-  background-size: 700px 500px;
-  font-size: medium;
+html{
+    background-color: rgb(232, 241, 255);
 }
-
-html {
-  font-size: 62.5%;
-  font-weight: normal;
-  letter-spacing: 0.2px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h3{
+    font-size: 30px;
 }
-
-h1 {
-  font-size: 50px;
+p{
+    font-size: 20px;
 }
-
-.header {
-  background: #ff9803;
-  padding: 20px 25px;
+message{
+    overflow: auto;
 }
-
-.logo {
-  display: flex;
-  justify-content: center;
-}
-
-.logo-bootcamp {
-  height: 30px;
-  width: 100px;
-  background: url('../img/logo_itbootcamp.png') no-repeat center center;
-  background-size: contain;
-}
-
-.logo-name {
-  margin: 0 0 0 14px;
-  line-height: 30px;
-  font-size: 1.6rem;
-  color: #fff;
-}
-
-.header-logo img {
-  height: 100%;
-}
-
-#app {
-  text-align: center;
-  display: inline;
-}
-header{
-  display: block;
-  width: 100%;
-}
-launch {
-  width: 23%;
-  height: 300px;
-  display: block;
- 
-  padding: 10px;
-  float: left;
-}
-img{
-  margin-top: 10px;
-}
-section#elonMusk{
-  display: block;
-  margin: 30px;
-  margin-top: 70px;
-}
-

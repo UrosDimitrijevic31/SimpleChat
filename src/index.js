@@ -1,14 +1,13 @@
 import '../assets/css/style.css';
-import { getCompanyInfo, launchesInfo } from './utilities/space-x-service';
+
 import { Dashboard } from './layouts/dashboard';
+import { getMessage } from './utilities/messages-service';
 
 
-getCompanyInfo().then(data => {
+getMessage().then(data => {
     console.log(data);
 })
-launchesInfo().then(data => {
-    console.log(data);
-}) 
+
 
 const app = document.querySelector('#app');
 let dashboard = new Dashboard();
