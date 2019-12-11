@@ -1,10 +1,14 @@
+import Main from "./main";
 import { Header } from "./header";
 
 class Dashboard{
     constructor(){
         this.node = document.createElement('dashboard');
-        this.header = new Header();
-        this.node.appendChild(this.header.getNode());
+        this.heder = new Header();
+        this.node.appendChild(this.heder.getNode());
+        
+        this.node.appendChild(Main.getNode());
+        
     }
 
     getNode(){

@@ -3,6 +3,8 @@ class NewMessage {
         this.node = document.createElement('section');
 
         this.message = document.createElement('textarea');
+        this.message.rows = '4';
+        this.message.cols = '29';
         this.message.id = 'txt-title';
         this.message.placeholder = 'message';
         this.title = ''

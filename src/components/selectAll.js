@@ -4,6 +4,7 @@ class Select {
 
         this.username = document.createElement('input');
         this.username.type = 'text';
+        this.username.required = true;
         this.username.id = 'txt-title';
         this.username.placeholder = 'Username';
         this.newUsername = '';

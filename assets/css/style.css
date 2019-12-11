@@ -1,12 +1,111 @@
-html{
-    background-color: rgb(232, 241, 255);
-}
-h3{
-    font-size: 30px;
-}
-p{
-    font-size: 20px;
-}
-message{
+ body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background: rgb(2,0,36); 
+    background: linear-gradient(285deg, rgba(2,0,36,1) 0%, rgba(10,10,158,0.9671218829328606) 18%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh; 
+  }
+  
+  .message {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  .message::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .message img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  
+  .message h4.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  
+  
+  input[type=text] {
+      width: 200px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+   
+  /* stilizovanje submit polja
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }*/
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .input {
+    float: left;
+    width: 100px;
+    margin-top: 6px;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+    
+  .label {
+    float: left;
+    width: 100px;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  main{
+    margin-top: 15px;
+    width: 800px;
+    height: 450px;
     overflow: auto;
-}
+  }
+  
